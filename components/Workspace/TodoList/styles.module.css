@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+.taskStatus {
+  margin-top: 30px;
+  font-family: nunito;
+  margin-bottom: 20px;
+}
+
+.taskList {
+  z-index: 2;
+  font-family: nunito;
+  font-size: 20px;
+  list-style: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .taskList {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .taskStatus {
+    font-size: 27px;
+      margin-top: 80px;
+      margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+
+  .taskStatus {
+    font-size: 25px;
+      margin-top: 80px;
+      margin-bottom: 15px;
+  }
+
+  .taskList {
+    font-size: 17px;
+  }
+  
+}

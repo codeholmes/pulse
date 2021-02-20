@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+.Row {
+  display: flex;
+}
+
+.Container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.OuterCircle {
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: rgb(0, 255, 119);
+  width: 230px;
+  height: 230px;
+  border-radius: 115px;
+}
+
+.InnerCircle {
+  padding-top: 50px;
+  font-family: nunito;
+  margin-top: 15px;
+  background-color: #4b82d8;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.Session {
+  margin-top: 50px;
+  padding-right: 50px;
+}
+
+.Break {
+  margin-top: 50px;
+  padding-left: 50px;
+}
+
+@media only screen and (max-width: 750px) {
+  .Container {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .OuterCircle {
+    margin-top: 30px;
+    width: 220px;
+    height: 220px;
+  }
+
+  .InnerCircle {
+    width: 190px;
+    height: 190px;
+  }
+
+  .Row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Session {
+    padding-left: 50px;
+  }
+
+  .Break {
+    padding-right: 50px;
+  }
+}

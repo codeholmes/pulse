@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+.BreakTitle {
+  margin-top: -70px;
+  font-size: 20px;
+  font-family: nunito;
+  margin-bottom: 10px;
+}
+
+.Buttons {
+  font-family: nunito;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 24px;
+  border-style: none;
+}
+
+.Digit {
+  margin: 5px 0 5px 0;
+  font-family: nunito;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+  .Row {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row-reverse;
+  }
+
+  .Digit {
+    margin: 0 10px 0 10px;
+  }
+  .BreakTitle {
+    margin-top: -20px;
+  }
+}

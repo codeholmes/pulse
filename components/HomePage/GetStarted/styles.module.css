@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+.getStartedBox {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 1100px;
+  height: 600px;
+  background-color: #3568b5;
+  border-radius: 20px;
+}
+
+.space {
+  display: block;
+  padding-bottom: 30px;
+}
+
+.getStartedBox2 {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 1100px;
+  height: 580px;
+  background-color: #4b82d8;
+  border-radius: 20px;
+  color: white;
+  font-family: Nunito;
+}
+
+.tagLine {
+  font-family: Nunito;
+  font-size: 27px;
+  color: white;
+  letter-spacing: 0.05em;
+  margin-top: 40px;
+}
+
+.wsBtn0 {
+  width: 200px;
+  font-size: 20px;
+  color: black;
+  height: 50px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #b0ceff;
+  letter-spacing: 0.05em;
+}
+
+.wsBtn1 {
+  width: 200px;
+  font-size: 20px;
+  color: black;
+  height: 60px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #0058db;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .getStartedBox {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    height: 320px;
+    background-color: #3568b5;
+    border-radius: 20px;
+  }
+
+  .getStartedBox2 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    height: 300px;
+    background-color: #4b82d8;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 1128px) {
+  .getStartedBox {
+    width: 800px;
+    height: 600px;
+  }
+
+  .getStartedBox2 {
+    width: 800px;
+    height: 580px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .hideImage {
+    display: none;
+  }
+
+  .getStartedBox {
+    width: 500px;
+    height: 300px;
+  }
+
+  .getStartedBox2 {
+    width: 500px;
+    height: 280px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .hideImage {
+    display: none;
+  }
+
+  .getStartedBox {
+    width: 500px;
+    height: 300px;
+  }
+
+  .getStartedBox2 {
+    width: 500px;
+    height: 280px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .hideImage {
+    display: none;
+  }
+
+  .getStartedBox {
+    width: 300px;
+    height: 300px;
+  }
+
+  .getStartedBox2 {
+    width: 300px;
+    height: 280px;
+  }
+}

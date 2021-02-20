@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+.footer {
+  margin-top: 70px;
+  width: 100%;
+  height: 200px;
+  background-color: #3568b5;
+  font-family: Nunito;
+  color: #ececec;
+  letter-spacing: 0.09em;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.footerBrand {
+  padding-top: 50px;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.footerSpace1 {
+  margin-right: 40px;
+}
+.footerSpace2 {
+  margin-left: 40px;
+}
+
+.SocialBox {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: wheat;
+  margin-top: 50px;
+  margin-left: 210px;
+}
+
+@media only screen and (max-width: 584px) {
+  .footerBrand {
+    padding-top: 30px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .footerSpace1 {
+    margin-right: 10px;
+  }
+  .footerSpace2 {
+    margin-left: 10px;
+  }
+
+  .footerFont {
+    font-size: 13px;
+  }
+
+  .footer {
+    margin-top: 50px;
+    height: 120px;
+  }
+}

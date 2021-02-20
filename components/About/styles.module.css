@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+.AboutUsGroup {
+    font-family: nunito;
+    color: white;
+}
+
+.AboutUs {
+    margin-top: 50px;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+}
+
+.AboutContent {
+    font-size: 20px;
+}

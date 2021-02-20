@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+.mainContainer {
+  width: auto;
+  height: 100%;
+}
+
+.planHeadline {
+  font-size: 27px;
+  font-family: nunito;
+  padding-top: 70px;
+  background-color: transparent;
+  color: white;
+  letter-spacing: 0.05em;
+  margin-bottom: 50px;
+}
+
+.planSubHeadline {
+  font-size: 18px;
+  font-family: nunito;
+  color: rgb(200, 200, 200);
+  letter-spacing: 0.05em;
+  margin-bottom: 35px;
+}
+
+.planWrapper {
+  display: flex;
+  width: auto;
+  height: 350px;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.shadow1 {
+  position: relative;
+  width: 300px;
+  height: 315px;
+  background-color: #3568b5;
+  margin-right: 100px;
+  border-radius: 20px;
+}
+
+.shadow2 {
+  position: relative;
+  width: 300px;
+  height: 315px;
+  background-color: #3568b5;
+  border-radius: 20px;
+}
+
+.plan1 {
+  color: rgb(228, 228, 228);
+  font-family: nunito;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  position: absolute;
+  padding-top: 15px;
+  width: 300px;
+  height: 300px;
+  background-color: #4b82d8;
+  margin-right: 100px;
+  border-radius: 20px;
+}
+
+.plan2 {
+  color: rgb(228, 228, 228);
+  font-family: nunito;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  position: absolute;
+  padding-top: 15px;
+  width: 300px;
+  height: 300px;
+  background-color: #4b82d8;
+  margin-right: 100px;
+  border-radius: 20px;
+}
+
+.priceStyle {
+  padding-top: 50px;
+}
+
+.priceStyle1 {
+  padding-top: 35px;
+}
+
+.priceDur {
+  font-size: 15px;
+  font-family: Helvetica;
+}
+
+.strikeStyles {
+  color: white;
+  position: relative;
+}
+
+.strikeStyles::after {
+  position: absolute;
+  border-bottom: 0.125em solid tomato;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
+.subsBtn {
+  margin-top: 70px;
+  height: 45px;
+  background-color: #1d68da;
+  padding-top: 10px;
+  width: 60%;
+  margin-left: 60px;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.subsBtn:hover{
+    background-color: #0066ff;
+}
+
+.subsBtn1 {
+  margin-top: 57px;
+  height: 45px;
+  background-color: #1d68da;
+  padding-top: 10px;
+  width: 60%;
+  margin-left: 60px;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.subsBtn1:hover{
+    background-color: #0066ff;
+}
+
+.plan1Styles {
+    margin-top: 50px;
+    width: 500px;
+    height: 600px;
+    background-color: #4B82D8;
+    border-radius: 20px;
+}
+
+.plan1Title {
+  margin-top: 100px;
+    font-size: 25px;
+    font-family: nunito;
+    letter-spacing: 0.05em;
+    color:white;
+    padding-top: 25px;
+}
+
+.plan1PriceInnerBox {
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: nunito;
+    width: 190px;
+    height: 50px;
+    color: white;
+    background-color: #4B82D8;
+    border-radius: 30px;
+    padding-top: 6px;
+}
+.plan1PriceOuterBox {
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.plan1CheckOut {
+  font-family: nunito;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.planConfirmPageBtnBox{
+  margin-top: 50px;
+  position: absolute;
+  background-color: transparent;
+  height: 50px;
+  width:450px;
+}
+
+.Cancel {
+  height: 40px;
+  background-color: rgba(128, 128, 128, 0.698);
+  width: 100px;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+  border-style: none;
+  font-family: nunito;
+  color:white;
+  margin-right: 10px;
+  letter-spacing: 0.05em;
+}
+
+.Cancel:hover {
+  background-color: red;
+}
+
+.Confirm {
+  height: 40px;
+  background-color: #1d6bc3;
+  width: 220px;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+  border-style: none;
+  font-family: nunito;
+  color:white;
+  letter-spacing: 0.05em;
+}
+
+.Confirm:hover{
+  background-color: #0066ff;
+}
+
+
+
+
+@media only screen and (max-width: 850px) {
+  .mainContainer {
+    width: 500px;
+    height: auto;
+  }
+  .planWrapper {
+    width: 500px;
+  }
+
+  .TitleBox {
+    width: 500px;
+  }
+  .planHeadline {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 80px;
+  }
+
+  .shadow1 {
+    margin-top: -20px;
+    margin-left: 100px;
+  }
+  .shadow2 {
+    margin-top: 50px;
+  }
+
+  .planSubHeadline {
+    font-size: 17px;
+    width: 500px;
+    height: 50px;
+    margin-top: 350px;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+
+    .shadow1 {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20px;
+        }
+        
+        .shadow2 {
+        
+        width: 250px;
+        height: 250px;
+        }
+        
+        .plan1 {
+        padding-top: 15px;
+        width: 250px;
+        height: 250px;
+        }
+        
+        .plan2 {
+        
+        padding-top: 15px;
+        width: 250px;
+        height: 250px;
+        }
+
+        .subsBtn {
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+        
+        .subsBtn1 {
+        margin-top: 30px;
+        margin-left: 50px;
+        }
+
+        .priceStyle {
+        padding-top: 30px;
+        }
+        
+        .priceStyle1 {
+        padding-top: 15px;
+        }
+        
+
+    .mainContainer {
+        width: 300px;
+      }
+
+    .TitleBox {
+        width: 300px;
+      }
+
+    .planHeadline {
+        margin-top: -20px;
+        display: flex;
+        align-self: center;
+        text-align: center;
+        justify-content: center;
+        font-size: 19px;
+        margin-bottom: 80px;
+    }
+  
+    .shadow1 {
+      margin-top: -20px;
+      margin-left: 100px;
+    }
+    .shadow2 {
+      margin-top: 50px;
+    }
+  
+    .planSubHeadline {
+        font-size: 15px;
+        width: 300px;
+        height: 50px;
+        margin-top: 270px;
+    }
+  }
+  

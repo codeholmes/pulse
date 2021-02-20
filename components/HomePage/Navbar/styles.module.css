@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #3568b5;
+  width: auto;
+  top: 0;
+  overflow: hidden;
+  position: sticky;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.brandName {
+  color: white;
+  font-family: Nunito;
+  font-size: 30px;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  margin-right: 700px;
+  cursor: pointer;
+}
+
+.brandNamePointer {
+  cursor: pointer;
+}
+
+.navLink {
+  color: white;
+  font-family: Nunito;
+  font-size: 20px;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  background-color: #3568b5;
+}
+
+.navLinkSpace {
+  margin-right: 20px;
+}
+
+.searchSpace {
+  margin-right: 20px;
+}
+
+.searchFixed {
+  position: relative;
+  padding-top: 22.5px;
+}
+
+.searchPointer {
+  cursor: pointer;
+}
+
+.menu {
+  position: relative;
+  width: 36px;
+  height: 25px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.mLine1 {
+  position: absolute;
+  width: 30px;
+  height: 2.5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.mLine2 {
+  position: absolute;
+  width: 30px;
+  height: 2.5px;
+  margin-top: 9px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.mLine3 {
+  position: absolute;
+  width: 30px;
+  height: 2.5px;
+  margin-top: 18px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.PhoneMenu {
+  font-family: nunito;
+  font-size: 20px;
+  color: white;
+  border-radius: 20px;
+  width: 100%;
+  height: 80px;
+  margin-top: 5px;
+  background-color: rgb(93, 135, 202);
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 599px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1128px) {
+  .brandName {
+    margin-right: 40vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    background-color: #3568b5;
+    width: auto;
+    position: sticky;
+  }
+
+  .brandName {
+    color: white;
+    font-family: Nunito;
+    font-size: 20px;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    margin-right: 21vw;
+    margin-left: 22vw;
+  }
+
+  .menu {
+    margin-top: 25px;
+  }
+
+  .navLink {
+    display: none;
+  }
+
+  .searchSpace {
+    margin-right: -25px;
+  }
+}
+
+.searchModelBackground {
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.692);
+}
+
+.searchModel {
+  z-index: 1;
+  align-self: center;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.input {
+  margin-top: 10px;
+  align-self: center;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(95, 95, 95);
+  padding-left: 15px;
+  font-size: 20px;
+  font-family: nunito;
+  background-color: transparent;
+}
+
+.inputBtnGroup {
+  margin-top: 50px;
+  background-color: transparent;
+  height: 50px;
+}
+
+.closeBtn {
+  padding-top: 1px;
+  cursor: pointer;
+  float: right;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  z-index: 3;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  font-family: nunito;
+  margin-right: 10px;
+  margin-top: 13px;
+}
+
+.resultItem {
+  width: 200px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: nunito;
+  letter-spacing: 0.05em;
+  list-style: none;
+  margin-right: 140px;
+}
+
+@media only screen and (max-width: 600px) {
+  .searchModel {
+    width: 280px;
+    height: 300px;
+  }
+
+  .input {
+    margin-top: 0px;
+    width: 200px;
+    font-size: 12px;
+  }
+
+  .inputBtnGroup {
+    margin-top: 50px;
+    background-color: transparent;
+    height: 50px;
+  }
+
+  .resultItem {
+    width: 150px;
+    font-size: 12px;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 0.849);
+    margin-left: 40px;
+  }
+}

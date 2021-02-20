@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+.FAQsGroup {
+  margin-top: 50px;
+  font-family: nunito;
+  color: white;
+}
+
+.FAQs {
+  font-size: 30px;
+}
+
+.Q {
+  margin-top: 20px;
+  font-size: 25px;
+}
+.A {
+  margin-top: 20px;
+  font-size: 20px;
+}

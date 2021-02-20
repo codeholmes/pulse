@@ -1,0 +1,31 @@
+{
+  "name": "pulse",
+  "version": "1.0.0",
+  "description": "productivity-application",
+  "main": "index.js",
+  "scripts": {
+    "start": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeholmes/pulse.git"
+  },
+  "keywords": [],
+  "author": "Anish Prasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeholmes/pulse/issues"
+  },
+  "homepage": "https://github.com/codeholmes/pulse#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "nanoid": "^3.1.20",
+    "next": "^10.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
+  }
+}
