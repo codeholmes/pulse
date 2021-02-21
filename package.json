@@ -4,7 +4,7 @@
   "description": "productivity-application",
   "main": "index.js",
   "scripts": {
-    "start": "next start -p $PORT",
+    "start": "next dev",
     "build": "next build",
     "heroku-postbuild": "npm run build"
   },

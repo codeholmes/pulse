@@ -10,18 +10,21 @@ class TabSwitch extends React.Component {
     super(props);
     this.state = {
       pomodoro: false,
+      todolist: true,
     };
   }
 
-  ShowFn() {
+  ShowPomo() {
     this.setState({
       pomodoro: true,
+      todolist: false,
     });
   }
 
-  HideFn() {
+  HidePomo() {
     this.setState({
       pomodoro: false,
+      todolist: true,
     });
   }
 
@@ -31,12 +34,19 @@ class TabSwitch extends React.Component {
         <div className={styles.mainContainer}>
           <div className="d-flex justify-content-center text-center">
             <div className={styles.tabBox}>
-              <div onClick={() => this.ShowFn()} className={styles.pomodoroTab}>
+              <div
+                              onClick={() => this.HideTodo()}
+                              onClick={() => this.ShowPomo()}
+
+
+                className={styles.pomodoroTab}
+              >
                 Pomodoro
               </div>
               <div className="d-flex justify-content-center">
                 <div
-                  onClick={() => this.HideFn()}
+                  onClick={() => this.ShowTodo()}
+                  onClick={() => this.HidePomo()}
                   className={styles.todolistTab}
                 >
                   To-do List
@@ -46,11 +56,13 @@ class TabSwitch extends React.Component {
             </div>
 
             <div className={styles.tool1}>
-              <TodoList tasks={DATA}></TodoList>
+              {this.state.todolist ? <TodoList tasks={DATA}></TodoList> : null}
 
-              {this.state.pomodoro ?<div className={styles.tool2}>
-                {this.state.pomodoro ? <Pomodoro></Pomodoro> : null}
-              </div>: null}
+              {this.state.pomodoro ? (
+                <div className={styles.tool2}>
+                  {this.state.pomodoro ? <Pomodoro></Pomodoro> : null}
+                </div>
+              ) : null}
             </div>
           </div>
         </div>

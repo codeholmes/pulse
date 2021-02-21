@@ -6,28 +6,46 @@
 }
 
 .DeleteBtn {
-    margin-left: 20px;
-    border-style: none;
-    border-radius: 10px;
-    width:50px;
-    height: 35px;
-    margin-bottom: 5px;
+  margin-left: 20px;
+  border-style: none;
+  border-radius: 10px;
+  width: 50px;
+  height: 35px;
+  margin-bottom: 5px;
+  background-color: white;
 }
 
 .Minus {
-    margin-left: 5px;
-    width:25px;
-    height: 6px; 
-    border-radius: 10px;
-    background-color: black;
+  margin-left: 5px;
+  width: 25px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: black;
 }
 
 .DeleteBtn:hover {
-    background-color: rgb(255, 38, 0);
+  background-color: rgb(255, 38, 0);
 }
 
 @media only screen and (max-width: 550px) {
-    .taskList {
-        font-size: 25px;
-      }
+  .DeleteBtn {
+    margin-left: 20px;
+    border-style: none;
+    border-radius: 10px;
+    width: 40px;
+    height: 25px;
+    margin-bottom: 5px;
+    background-color: white;
   }
+
+  .Minus {
+    margin-left: 3px;
+    width: 18px;
+    height: 6px;
+    border-radius: 5px;
+  }
+
+  .taskList {
+    font-size: 25px;
+  }
+}

@@ -22,7 +22,6 @@
 }
 
 .tool1 {
-
   position: absolute;
   margin-top: 100px;
   width: 1000px;
@@ -33,7 +32,7 @@
 
 .tool2 {
   position: absolute;
-  margin-top: -164px;
+  margin-top: 0px;
   width: 1000px;
   height: 650px;
   background-color: #4b82d8;
@@ -98,30 +97,30 @@
 }
 @media only screen and (max-width: 550px) {
   .todolistTab {
-    width: 23vw;
+    width: 150px;
     font-size: 15px;
   }
-  .trackerTab{
+  .trackerTab {
     font-size: 15px;
   }
   .pomodoroTab {
     font-size: 15px;
   }
 
-  .tool1{
+  .tool1 {
     width: 90vw;
   }
-  .tool2{
+  .tool2 {
     width: 90vw;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .todolistTab {
-    width: 85px;
+    width: 110px;
     font-size: 12px;
   }
-  .trackerTab{
+  .trackerTab {
     font-size: 12px;
   }
   .pomodoroTab {
@@ -133,13 +132,13 @@
   .mainContainer {
     width: 270px;
   }
-  .tool1{
+  .tool1 {
     width: 270px;
   }
-  .tool2{
+  .tool2 {
     width: 270px;
   }
-  .tabBox{
-    width:270px;
+  .tabBox {
+    width: 270px;
   }
 }
