@@ -134,12 +134,7 @@ class Navbar extends Component {
                       onClick={() => this.ShowFn()}
                       className={styles.searchPointer}
                     >
-                      <Image
-                        src="/../public/search.png"
-                        alt="Search"
-                        width={25}
-                        height={25}
-                      />
+                      <img src="/search.png" width="27" height="27"/>
                     </div>
                   </div>
                 </span>

@@ -17,12 +17,7 @@ export default function Products() {
             <div className={styles.productBox1}>
               <span className={styles.productBox0}>
                 <div className="d-flex justify-content-around">
-                  <Image
-                    src="/../public/todolist.png"
-                    alt="To-do List"
-                    width={200}
-                    height={200}
-                  />
+                  <img src="/todolist.png" width="200" height="200" />
                 </div>
               </span>
             </div>
@@ -50,12 +45,7 @@ export default function Products() {
             <div className={styles.productBox1}>
               <span className={styles.productBox0}>
                 <div className="d-flex justify-content-around">
-                  <Image
-                    src="/../public/pomodoro.png"
-                    alt="Pomodoro Timer"
-                    width={200}
-                    height={200}
-                  />
+                  <img src="/pomodoro.png" width="200" height="200" />
                 </div>
               </span>
             </div>
@@ -71,17 +61,13 @@ export default function Products() {
             </div>
           </div>
         </div>
+        <div className={styles.space}></div>
         <div className="row d-flex justify-content-around">
           <div className="col-xs">
             <div className={styles.productBox1}>
               <span className={styles.productBox0}>
                 <div className="d-flex justify-content-around">
-                  <Image
-                    src="/../public/tracker.png"
-                    alt="Habit Tracker"
-                    width={200}
-                    height={200}
-                  />
+                  <img src="/tracker.png" width="200" height="200"/>
                 </div>
               </span>
             </div>
