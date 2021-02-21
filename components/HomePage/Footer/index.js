@@ -18,7 +18,7 @@ export default function Footer() {
                 </div>
                 <div className={styles.footerFont}>
                     <Link href="/about" passHref>
-                        <whiteLink>{<span style={{ cursor: 'pointer' }} className={styles.footerSpace1}>About us</span>}</whiteLink>
+                        <whiteLink>{<span style={{ cursor: 'pointer' }} className={styles.footerSpace1}>About</span>}</whiteLink>
                     </Link> 
                     <Link href="/faq" passHref>
                         <whiteLink>{<span style={{ cursor: 'pointer' }}> FAQs</span>}</whiteLink>

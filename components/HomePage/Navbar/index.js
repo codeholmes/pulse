@@ -64,13 +64,7 @@ class Navbar extends Component {
     });
   }
 
-  ShowMenu() {
-    this.setState({
-      Burger: true,
-    });
-  }
-
-  HideMenu() {
+  ShowHideMenu() {
     this.setState({
       Burger: !this.state.Burger,
     });
@@ -113,7 +107,10 @@ class Navbar extends Component {
           <div>
             <nav className="navbar-expand d-flex justify-content-center text-left">
               <div className="navbar-nav">
-                <div onClick={() => this.ShowMenu()} className={styles.menu}>
+                <div
+                  onClick={() => this.ShowHideMenu()}
+                  className={styles.menu}
+                >
                   <div className="MenuGroup">
                     <div className={styles.mLine1}></div>
                     <div className={styles.mLine2}></div>
@@ -166,17 +163,15 @@ class Navbar extends Component {
           </div>
         </div>
         {this.state.Burger ? (
-          <div className={styles.PhoneMenu}>
-            <Link href="/subscribe" passHref>
-              <whiteLink>
-                {
-                  <div>
-                    <span style={{ cursor: "pointer" }}>Subscribe</span>
-                  </div>
-                }
-              </whiteLink>
-            </Link>
-          </div>
+          <Link href="/subscribe" passHref>
+            {
+              <div style={{ cursor: "pointer" }} className={styles.PhoneMenu}>
+                <whiteLink>
+                  <span>Subscribe</span>
+                </whiteLink>
+              </div>
+            }
+          </Link>
         ) : null}
       </div>
     );

@@ -1,11 +1,9 @@
 {
-  "/about": "pages/about.html",
-  "/faq": "pages/faq.html",
-  "/": "pages/index.html",
-  "/subscribe": "pages/subscribe.html",
-  "/workspace": "pages/workspace.html",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js",
+  "/subscribe": "pages/subscribe.js",
+  "/workspace": "pages/workspace.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js"
 }

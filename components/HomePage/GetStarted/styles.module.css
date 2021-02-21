@@ -145,4 +145,28 @@
     width: 300px;
     height: 280px;
   }
+
+  .wsBtn0 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hideImage {
+    display: none;
+  }
+
+  .getStartedBox {
+    width: 300px;
+    height: 300px;
+  }
+
+  .getStartedBox2 {
+    width: 300px;
+    height: 280px;
+  }
+
+  .wsBtn0 {
+    font-size: 15px;
+  }
 }
