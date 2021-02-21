@@ -1,21 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
 
 .SessionTitle {
-    margin-top: -70px;
+  margin-top: -70px;
   font-size: 20px;
   font-family: nunito;
   margin-bottom: 10px;
 }
 
 .Buttons {
-
   font-family: nunito;
   width: 50px;
   height: 50px;
   font-size: 30px;
   border-radius: 24px;
   border-style: none;
-  background-color: white;
+  background-color: transparent;
 }
 
 .Digit {
@@ -25,10 +24,9 @@
 }
 
 @media only screen and (max-width: 750px) {
-
-    .SessionTitle {
-        margin-top: 0px;
-    }
+  .SessionTitle {
+    margin-top: 0px;
+  }
 
   .Row {
     display: flex;
@@ -40,5 +38,5 @@
     margin: 0 10px 0 10px;
     font-family: nunito;
     font-size: 30px;
-  } 
+  }
 }

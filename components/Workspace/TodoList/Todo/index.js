@@ -8,11 +8,13 @@ export default function Todo(props) {
               <label className={styles.taskList} htmlFor={props.id}>
                 {props.name}
               </label>
+
                 <div className="btn-group">
                     <button type="button" className={styles.DeleteBtn} onClick={()=>props.deleteTask(props.id)}>
                         <div className={styles.Minus}></div>
                     </button>
                 </div>
+
             </div>
         </li>
     );

@@ -34,7 +34,7 @@ function Form(props) {
           onChange={handleChange}
         />
         <button type="submit" className={styles.addBtn}>
-          <div>+</div>
+          <div>Add</div>
         </button>
       </div>
     </form>
