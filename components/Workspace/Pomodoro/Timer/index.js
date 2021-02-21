@@ -88,13 +88,13 @@ class Timer extends Component {
 
         <div className={styles.keys}>
           <button className={styles.button1} onClick={this.start}>
-            <img src="/start.png" width="40px" height="40px" />
+            <img src="/start.png" width="25px" height="25px" />
           </button>
           <button className={styles.button2} onClick={this.stop}>
-            <img src="/stop.png" width="40px" height="40px" />
+            <img src="/stop.png" width="25px" height="25px" />
           </button>
           <button className={styles.button3} onClick={this.reset}>
-            <img src="/reset.png" width="40px" height="40px" />
+            <img src="/reset.png" width="25px" height="25px" />
           </button>
         </div>
       </div>
