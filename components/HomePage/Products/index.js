@@ -18,7 +18,7 @@ export default function Products() {
               <span className={styles.productBox0}>
                 <div className="d-flex justify-content-around">
                   <Image
-                    src="/../public/todolist.svg"
+                    src="/../public/todolist.png"
                     alt="To-do List"
                     width={200}
                     height={200}
@@ -51,7 +51,7 @@ export default function Products() {
               <span className={styles.productBox0}>
                 <div className="d-flex justify-content-around">
                   <Image
-                    src="/../public/pomodoro.svg"
+                    src="/../public/pomodoro.png"
                     alt="Pomodoro Timer"
                     width={200}
                     height={200}
@@ -77,7 +77,7 @@ export default function Products() {
               <span className={styles.productBox0}>
                 <div className="d-flex justify-content-around">
                   <Image
-                    src="/../public/tracker.svg"
+                    src="/../public/tracker.png"
                     alt="Habit Tracker"
                     width={200}
                     height={200}

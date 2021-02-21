@@ -17,7 +17,7 @@
 
 .space {
   display: block;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .getStartedBox2 {
@@ -38,7 +38,7 @@
   font-size: 27px;
   color: white;
   letter-spacing: 0.05em;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .wsBtn0 {
@@ -60,7 +60,7 @@
   border-radius: 10px;
   border-style: none;
   background-color: #0058db;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -84,6 +84,10 @@
     height: 300px;
     background-color: #4b82d8;
     border-radius: 20px;
+  }
+
+  .tagLine {
+    padding-top: 25px;
   }
 }
 
@@ -112,6 +116,9 @@
   .getStartedBox2 {
     width: 500px;
     height: 280px;
+  }
+  .tagLine {
+    padding-top: 25px;
   }
 }
 

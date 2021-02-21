@@ -135,9 +135,9 @@ class Navbar extends Component {
                       className={styles.searchPointer}
                     >
                       <Image
-                        src="/../public/search.svg"
+                        src="/../public/search.png"
                         alt="Search"
-                        width={30}
+                        width={25}
                         height={25}
                       />
                     </div>

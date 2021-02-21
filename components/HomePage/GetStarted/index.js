@@ -16,10 +16,10 @@ export default function GetStarted() {
           <div className={styles.hideImage}>
             <div className="d-flex justify-content-center text-center">
               <Image
-                src="/../public/getStarted.svg"
+                src="/../public/getStarted.png"
                 alt="Pomodoro Timer"
-                width={700}
-                height={350}
+                width={843}
+                height={373}
               />
             </div>
           </div>
