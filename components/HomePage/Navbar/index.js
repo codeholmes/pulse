@@ -150,7 +150,9 @@ class Navbar extends Component {
                       <whiteLink>
                         {
                           <div>
-                            <span style={{ cursor: "pointer" }}>Subscribe</span>
+                            <span style={{ cursor: "pointer" }}>
+                              Try Premium
+                            </span>
                           </div>
                         }
                       </whiteLink>

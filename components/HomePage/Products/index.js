@@ -1,6 +1,12 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
+import Link from "next/link";
+import styled from "styled-components";
+
+const whiteLink = styled.a`
+  color: white;
+`;
 
 export default function Products() {
   return (
@@ -23,7 +29,13 @@ export default function Products() {
           </div>
           <div className="col-xs">
             <div className={styles.productBox2}>
-              <p className={styles.productTitle}>To-do List</p>
+              <p className={styles.productTitle}>
+                <Link href="/workspace" passHref>
+                  <whiteLink>
+                    {<span style={{ cursor: "pointer" }}>To-do List</span>}
+                  </whiteLink>
+                </Link>
+              </p>
               <p className={styles.productDetails}>
                 Stay organised with this task management web application. It is
                 integrated in your workspace section, so you can make the most

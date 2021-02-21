@@ -136,15 +136,15 @@
 }
 
 .plan1Styles {
-    margin-top: 50px;
-    width: 500px;
-    height: 600px;
+    margin-top: 30px;
+    width: 450px;
+    height: 380px;
     background-color: #4B82D8;
     border-radius: 20px;
 }
 
 .plan1Title {
-  margin-top: 100px;
+  margin-top: 30px;
     font-size: 25px;
     font-family: nunito;
     letter-spacing: 0.05em;
@@ -345,7 +345,24 @@
     }
 
     .plan1Styles {
-      width: 350px;
+      width: 400px;
     }
   }
   
+  @media only screen and (max-width: 400px) {
+
+
+  .plan1Styles {
+    width: 310px;
+    height: 400px;
+  }
+
+  .Confirm {
+    margin-right: 0px;
+  }
+  .Cancel {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 80xp;
+  }
+}
